@@ -28,6 +28,7 @@ suppressWarnings(power$Global_active_power <- as.numeric(power$Global_active_pow
 ### Plot 1
 ### ==========================
 png(filename = "plot1.png", 
+    bg = "transparent",
     width = 480, 
     height = 480, 
     units = "px")
