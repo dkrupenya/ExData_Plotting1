@@ -1,3 +1,6 @@
+### Need this to get correct day names
+Sys.setlocale("LC_TIME", "English")
+
 ### Load and prepare Data
 
 ## load only  nessesary lines (checked before)
